@@ -5,7 +5,7 @@ package com.adtech.data.entity;
  * @date ：2020/1/7 16:33
  * @description：
  */
-public class User {
+public class User extends Entity{
     private String name;
     private int age;
 
@@ -31,5 +31,15 @@ public class User {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public String getTableName() {
+        return "user";
+    }
+
+    @Override
+    public String getPrimaryKey() {
+        return null;
     }
 }

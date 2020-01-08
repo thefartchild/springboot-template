@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>  
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.adtech.ysxt.dao.BaseEntityMapper">
-    <insert id="save" parameterType="com.adtech.ysxt.entity.Entity">
+<mapper namespace="com.adtech.data.mapper.BaseEntityMapper">
+    <insert id="save" parameterType="com.adtech.data.entity.Entity">
      <![CDATA[   
          insert into  ${entity.tableName} (
      ]]>

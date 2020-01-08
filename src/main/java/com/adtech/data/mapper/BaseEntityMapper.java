@@ -1,6 +1,6 @@
 package com.adtech.data.mapper;
 
-import com.adtech.ysxt.entity.Entity;
+import com.adtech.data.entity.Entity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
